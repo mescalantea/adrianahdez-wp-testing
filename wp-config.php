@@ -28,7 +28,7 @@ define( 'DB_USER', 'id11797033_wp_18afd3fd71f9fdd145301137089dcca7' );
 /** MySQL database password */
 define( 'DB_PASSWORD', '00ccf5fa2f598c9a99594b35f6c3736200b89de2' );
 
-/** MySQL hostname */
+/** MySQL hostname edited for testing */
 define( 'DB_HOST', '000.webhost.com' );
 
 /** Database Charset to use in creating database tables. */
