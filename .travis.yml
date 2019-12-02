@@ -7,7 +7,7 @@ language: php
 
 # Declare versions of PHP to use. Use one decimal max.
 php:
-    - "7.2"
+     - "7.2"
 
 # Ditch sudo and use containers.
 # @link http://docs.travis-ci.com/user/migrating-from-legacy/#Why-migrate-to-container-based-infrastructure%3F
@@ -15,4 +15,4 @@ php:
 sudo: false
 
 after_success:
-- find . -type d \( -path "./.*" -o -path "./node_modules" \) -prune -o -name "*" -print -exec curl --ftp-create-dirs -T {} ftp://files.000webhost.com/public_html/ --user ${adrianahdez-wp-testing}:${adrianahdez-wp-testing} \;
+    - find . -type d \( -path "./.*" -o -path "./node_modules" \) -prune -o -name "*" -print -exec curl --ftp-create-dirs -T {} ftp://files.000webhost.com/public_html/ --user ${adrianahdez-wp-testing}:${adrianahdez-wp-testing} \;
